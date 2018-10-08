@@ -1,6 +1,7 @@
 
 function GUI_start()
 addpath ./Function
+addpath ./Function/SCSA
 % This function is used for starting the water suppression GUI
 
 % Author: Sourav Bhaduri
