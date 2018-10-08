@@ -124,10 +124,10 @@ fitting_handles.axis1 = axes('Units','Pixels','Units','normalized','Position',[1
 %     'String','Signal Spectrum','BackgroundColor',[0.68,0.92,1],'FontSize',9,'FontWeight','Bold');
 fitting_handles.axis2 = axes('Units','Pixels','Units','normalized','Position',[250/x_max 2/y_max 150/x_max 80/y_max]);
 
-myImage=imread([pwd,'\ugent_logo.png']);
+myImage=imread([pwd,'\Function\ugent_logo.png']);
 myImage= imresize(myImage,1);
 imshow(myImage,'Parent',fitting_handles.axis1);
-myImage=imread([pwd,'\kaust_logo.jpg']);
+myImage=imread([pwd,'\Function\kaust_logo.jpg']);
 myImage= imresize(myImage,1);
 imshow(myImage,'Parent',fitting_handles.axis2);
 
